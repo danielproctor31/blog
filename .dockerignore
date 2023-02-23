@@ -1,0 +1,6 @@
+.cache
+.devcontainer
+.vscode
+.env
+public
+node_modules

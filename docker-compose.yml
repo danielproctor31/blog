@@ -1,0 +1,9 @@
+version: '2.4'
+services:
+  web:
+    container_name: blog
+    build:
+      context: .
+    ports:
+      - "8080:80"
+    restart: unless-stopped
